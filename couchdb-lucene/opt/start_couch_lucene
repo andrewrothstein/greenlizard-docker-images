@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sed -e 's/localhost:5984/couchdb:5984/' -i /opt/couchdb-lucene-$COUCHDB_LUCENE_VERSION/conf/couchdb-lucene.ini
+sed -e 's/localhost:5984/couchdb:5984/' -i /opt/couchdb-lucene/conf/couchdb-lucene.ini
 
-/opt/couchdb-lucene-$COUCHDB_LUCENE_VERSION/bin/run
+/opt/couchdb-lucene/bin/run
 
